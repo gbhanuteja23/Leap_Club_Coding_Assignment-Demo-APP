@@ -6,19 +6,13 @@ class Board extends React.Component {
   constructor(props) {
     super(props)
     const fronts = [
-      '💩',
-      '👹',
-      '👿',
-      '🧠',
-      '🚗',
-      '🚲',
-      '🚂',
-      '🧸',
-      '🤨',
-      '🤟',
-      '♥️',
-      '🦟',
-      '🦨',
+      'A','B','C','D',
+      'E','F', 'G','H',
+      'I', 
+      'J',
+      'K',
+      'L',
+      'M',
     ]
     const deck = fronts
       .concat(fronts)
